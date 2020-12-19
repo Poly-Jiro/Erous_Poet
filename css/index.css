@@ -1,0 +1,140 @@
+/*　リセットCSS */
+
+body{
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li{
+  padding: 0;
+  margin: 0;
+}
+
+
+/* ヘッダーの設定 */
+
+
+header{
+  height:50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading{
+  margin: 0px 0px 0px 10px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.heading-title{
+  display: flex;
+  align-items: center;
+}
+
+.sub-title{
+  margin-left: 20px;
+}
+
+.navbar{
+  font-size: 16px;
+  width: 50%;
+  padding: 10px;
+}
+
+.navbar-list{
+  display: flex;
+  justify-content: space-around;
+}
+
+li {
+  list-style: none;
+}
+
+.contents{
+  background-color:white
+}
+
+/* トップ画像部分 */
+.top-content{
+  height: 60vh;
+}
+
+.top-image{
+  height: 100%;
+  width: 100%;
+}
+
+/* お知らせ部分 */
+.upper-content{
+  height: 30vh;
+}
+
+/* 共通部分 */
+.content-title{
+  text-align: center;
+  border-bottom: 1px solid red;
+  margin: 50px auto;
+}
+/* 共通部分終了 */
+
+.messages{
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.message{
+  display: flex;
+}
+
+.message-date{
+  margin-right: 30px;
+}
+
+
+/* チャット部分ルーム */
+.middle-content{
+  height: 100vh;
+}
+
+.room-lists{
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.room{
+  display: flex;
+}
+
+.created-date{
+  margin-right: 30px;
+}
+
+
+/* 幸せ報告部分 */
+.bottom-content{
+  height: 70vh;
+}
+
+.matching-lists{
+  margin: 0 auto;
+  width: 50vw;
+}
+
+.diary{
+  display: flex;
+}
+
+.created-date{
+  margin-right: 30px;
+}
+
+

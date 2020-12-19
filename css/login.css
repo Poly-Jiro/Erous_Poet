@@ -1,0 +1,53 @@
+/* リセットCSS */
+
+body{
+  font-size: 14px;
+  color: #333;
+  margin: 0 auto;
+  
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  padding: 10px 0;
+  margin: 0;
+}
+
+ul,li{
+  padding: 0;
+  margin: 0;
+}
+
+/* 背景設定 */
+
+
+body{
+  background-image: url("../img/login.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.white_board{
+  background-color: white;
+  width: 30vw;
+  height:100vh;
+  padding: 0 10px;
+}
+
+.title{
+  font-size: large;
+  padding: 10px;
+}
+
+.app-image{
+  width: 100%;
+  height: 100%;
+}
+
+.app-explanation{
+  text-align: center;
+}
+
+.side-image{
+  width: 100%;
+  height: 100%;
+}
